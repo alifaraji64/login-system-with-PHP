@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(190, 255, 130);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin:1rem;
+}
+nav div{
+    display: flex;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    border:1px solid red;
+}
